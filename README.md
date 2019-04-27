@@ -1,5 +1,5 @@
-# remove-comentario-flex
-Uma aplicação simples desenvolvido com a ferramenta flex para comentar prints em um código C++
+# comenta-codigo-flex
+Uma aplicação simples desenvolvido com a ferramenta flex para comentar multiplas linhas em um código de uma vez só
 
 Para rodar você deve possui o flex instalado.
 
