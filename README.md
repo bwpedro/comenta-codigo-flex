@@ -9,6 +9,6 @@ No terminal, digite os comandos:
 
     flex index.l
     gcc lex.yy.c -ll (Mac) -lfl (Linux)
-    ./a.out
+    ./a.out seu_arquivo.cpp
 
-Neste caso, um arquivo cpp vai ser gerado com o mesmo código de teste.cpp, porém com o std::cout comentado
+Neste caso, um arquivo cpp vai ser gerado com o mesmo código do seu_arquivo.cpp, porém com o std::cout comentado
