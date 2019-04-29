@@ -11,9 +11,9 @@ PALAVRA std::cout
 . { fprintf(yyout, "%s", yytext); }
 %%
 
-int main (){
-    yyin = fopen("teste.cpp" , "r");
-    yyout = fopen("testeMod.cpp", "w");
+int main (int nArgs , char* szArgs []){
+    yyin = fopen(szArgs[1] , "r");
+    yyout = fopen("saida.cpp", "w");
     yylex();
     return 0;
 }
