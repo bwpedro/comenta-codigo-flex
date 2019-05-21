@@ -1,14 +1,30 @@
 # comenta-codigo-flex
-Uma aplicação simples desenvolvido com a ferramenta flex para comentar multiplas linhas em um código de uma vez só
+Uma aplicação simples desenvolvido com a ferramenta flex para comentar multiplas linhas em um código de uma vez só.
 
-Para rodar você deve possui o flex instalado.
+No terminal, execute os seguintes comandos:
 
-    brew install flex
+### Mac
 
-No terminal, digite os comandos:
+* Instalação
 
-    flex index.l
-    gcc lex.yy.c -ll (Mac) -lfl (Linux)
-    ./a.out seu_arquivo.cpp
+      brew install flex
+      
+* Execução
+      
+      flex index.l
+      gcc lex.yy.c -ll
+      ./a.out
+
+### Linux
+
+* Instalação
+
+      sudo apt-get flex
+      
+* Execução
+      
+      flex index.l
+      gcc lex.yy.c -lfl
+      ./a.out
 
 Neste caso, um arquivo cpp vai ser gerado com o mesmo código do seu_arquivo.cpp, porém com o std::cout comentado
